@@ -1,0 +1,7 @@
+.idea/
+venv/
+reports/
+allure_behave.formatter:AllureFormatter.output/
+__pycache__/
+*.py[cod]
+scanner.json

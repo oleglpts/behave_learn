@@ -1,0 +1,13 @@
+allure-behave==2.8.0
+allure-python-commons==2.8.0
+attrs==19.1.0
+behave==1.2.6
+importlib-metadata==0.19
+more-itertools==7.2.0
+parse==1.12.1
+parse-type==0.5.2
+pip==19.0.3
+pluggy==0.12.0
+setuptools==40.8.0
+six==1.12.0
+zipp==0.6.0
