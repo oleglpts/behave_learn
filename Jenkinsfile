@@ -15,7 +15,7 @@ node {
     }
     stage('reports') {
         script {
-            allure includeProperties: false, jdk: '', results: [[path: 'reports']]
+            allure includeProperties: false, jdk: '', results: [[path: "reports${BUILD_NUMBER}"]], report: "allure-report/${BUILD_NUMBER}"
         }
     }
 }
