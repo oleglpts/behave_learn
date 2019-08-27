@@ -4,6 +4,6 @@ COPY core ./core
 COPY features ./features
 COPY scripts/venv_requirements.txt ./venv_requirements.txt
 COPY steps ./steps
-COPY behave.ini ./
+COPY behave_example.ini ./
 RUN pip install -r venv_requirements.txt
 ENTRYPOINT ["/bin/bash"]
