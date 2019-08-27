@@ -9,7 +9,7 @@ def step_impl(context):
 
 @when('test SimpleClass')
 def step_impl(context):
-    assert isinstance(context.simple_class.property0, dict)
+    assert isinstance(context.simple_class.property0, list)
     assert True is not False
 
 
