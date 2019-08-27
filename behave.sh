@@ -4,5 +4,5 @@
 
 source venv/bin/activate
 rm -rf reports/*
-behave
+behave -f allure_behave.formatter:AllureFormatter -o $BUILD_NUMBER
 deactivate
