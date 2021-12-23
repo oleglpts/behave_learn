@@ -14,8 +14,8 @@ node {
         '''
     }
     stage('reports') {
-        script {
+        sh """
             allure generate reports
-        }
+        """
     }
 }
