@@ -8,6 +8,6 @@ parse==1.12.1
 parse-type==0.5.2
 pip==19.0.3
 pluggy==0.12.0
-setuptools==40.8.0
+setuptools==65.5.1
 six==1.12.0
 zipp==0.6.0
